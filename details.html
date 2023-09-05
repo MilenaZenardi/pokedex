@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Fonte Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Hind+Siliguri:wght@300;400&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@100;300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/details.css">
+    <title>Detalhes</title>
+</head>
+
+<body>
+    <section class="container">
+        <h1 id="pokemonName"></h1>
+        <h2 id="pokemonNumber"></h2>
+        <img id="pokemonImage" alt="Imagem do Pokémon" />
+        <ul id="pokemonTypes" ></ul>
+        <div class="moreDetails">
+            <p>Experience: <br> <span id="pokemonExperience"></span></p>
+            <p>Height: <br> <span id="pokemonHeight"></span></p>
+            <p>Weight: <br> <span id="pokemonWeight"></span></p>
+            <p>Abilities:</p>
+            <ul id="pokemonAbilities"></ul>
+        </div>
+        <div class="voltar">
+            <button id="voltarButton" type="button">Voltar</button>
+        </div>
+    </section>
+    <script src="/assets/js/pokemon-detail.js"></script>
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
+    
+
+</body>
+
+</html>
